@@ -15,7 +15,7 @@ const Discounted = () => {
                         .filter(book => book.salePrice > 0)
                         .slice(0, 8)
                         .map((book) => {
-                            <Book book={book} key={book.id} />
+                            return <Book book={book} key={book.id} />
                         })}
                     </div>
                 </div>
