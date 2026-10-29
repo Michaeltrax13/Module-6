@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row row__column">
                     <Link to="/">
                         <figure className="footer__logo">
-                            <img src={logo} className="footer__logo--img" />
+                            <img src={logo} alt="" className="footer__logo--img" />
                         </figure>
                     </Link>
                     <div className="footer__list">
